@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Discover Illinois</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Pictures/Logo/Discover Illinois Logo.png" alt="Discover Illinois Logo">
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <!-- Dropdown Menu -->
+        <li class="dropdown"><a href="cities.html">Explore Cities ▾</a>
+          <ul class="dropdown-menu">
+            <li><a href="chicago.html">Chicago</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="peoria.html">Peoria</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <h1>Contact Us</h1>
+    <p>Have questions or feedback? We’d love to hear from you.</p>
+  </section>
+
+  <!-- Contact Section -->
+<section class="contact-page">
+  <!-- Left: Form -->
+  <div class="contact-form-container">
+    <h2>Send us a message</h2>
+    <p>We're eager to hear from you and assist.</p>
+
+    <form class="contact-form" id="contactForm">
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="confirmEmail">Confirm Email</label>
+    <input type="email" id="confirmEmail" name="confirmEmail" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <div class="checkbox">
+        <input type="checkbox" id="terms" name="terms">
+        <label for="terms">I accept the Terms</label>
+    </div>
+
+    <button type="submit" class="btn">Submit</button>
+    </form>
+
+  </div>
+
+  <!-- Right: Info + Map -->
+  <div class="contact-info">
+    <div class="text">
+      <h2>Get in Touch</h2>
+      <p>We’re here to help you with any inquiries.</p>
+      <p><strong>Email:</strong> <a href="mailto:info@discoverillinois.com">info@discoverillinois.com</a></p>
+      <p><strong>Phone:</strong> <a href="tel:+1-312-555-1234">(312) 555-1234</a></p>
+      <p><strong>Office:</strong> 456 State Street, Chicago, IL 60601</p>
+    </div>
+
+    <div class="image">
+      <img src="Pictures\Contact Pictures\Map of Illinois.png" alt="Map of Illinois with Chicago marked">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <img src="Pictures/Logo/Discover Illinois Logo.png" alt="Discover Illinois Logo">
+        </div>
+        <ul class="footer-nav">
+          <li><a href="index.html">Explore Illinois</a></li>
+          <li><a href="chicago.html">Visit Chicago</a></li>
+          <li><a href="springfield.html">Discover Springfield</a></li>
+          <li><a href="peoria.html">Peoria Highlights</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <h4>Join</h4>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Your Email Here" required>
+          <button type="submit">Join</button>
+        </form>
+        <small>By subscribing you agree to our <a href="#">Privacy Policy</a></small>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="legal-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Service Terms</a>
+        <a href="#">Cookie Settings</a>
+      </div>
+      <p>&copy; 2025 Discover Illinois. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
